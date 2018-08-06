@@ -55,6 +55,47 @@ header{
 	display: none;
 }
 
+.slogan{
+    margin-bottom: 80px;
+}
+
+.slogan h1{
+    margin: 0;
+    text-align: center;
+    font-size: 33px;
+    color: #7e7e7e;
+}
+
+.slogan h1 span{
+    color: #d42819;
+}
+.card-row{
+    margin-bottom: 50px;
+}
+
+.card-row img{
+    box-shadow: 0 0 5px rgba(0, 0, 0, .19);
+    transition: all 0.5s;
+}
+
+.card-row a:hover img{
+    box-shadow: 0 0 10px rgba(0, 0, 0, .70);
+}
+
+.nav-pager{
+    text-align: center;
+}
+
+.pagination > li > a, .pagination > li > span{
+    color: #b5b3b3;
+}
+
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover{
+    background: #fff;
+    border: 1px solid #ddd;
+    color: #d42819;
+}
+
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
 	
